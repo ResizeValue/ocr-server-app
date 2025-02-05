@@ -70,7 +70,7 @@ namespace OcrChatGptServer.Services
 
             var sizePrompt = size switch
             {
-                "small" => "The responses should be brief and to the point. (small)",
+                "short" => "The responses should be brief and to the point. (small)",
                 "medium" => "The responses should be detailed and comprehensive. (medium)",
                 "large" => "The responses should be thorough and in-depth. (large)",
                 _ => throw new ArgumentException("Invalid size parameter", nameof(size))
