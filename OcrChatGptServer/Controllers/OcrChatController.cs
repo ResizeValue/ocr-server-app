@@ -5,7 +5,7 @@ using OcrChatGptServer.Services;
 namespace OcrChatGptServer.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class OcrChatController : ControllerBase
     {
         private readonly OcrChatGptQueue _queue;
